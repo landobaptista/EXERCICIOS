@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lando exercicios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="pincipal">
+        <header>
+        <h1>EFECTUADOR CALCULOS</h1>
+       
+    </header>
+     <nav>
+            <a href="#">HOME </a>
+            <a href="#">CURIOSIDADES</a>
+        </nav >
+        <main class="primeiro">
+            <h1> &#x1F449; Contador inteligente &#x1F448;  </h1>
+            <p>Introduza os números nas caixas para começar a contagem</p>
+            <label for="n1">PRIMEIRO</label>
+            <input type="number" id="n1">  <br>
+            <label for="n2">SUGUNDO</label>
+            <input type="number"  id="n2"> <br>
+            <input type="button" value="CONTAR" onclick="contardor()">
+            <div id="resultado">
+        <p>DEMOSTRAÇÃO DO RESULTADO</p>
+        </div>
+        </main>
+        <main class="segundo">
+            <h1> &#x1F449; Tabuada inteligente    &#x1F448; </h1>
+            <p>Escolha um número para demostrar-mos a sua tabuada</p>
+            <label for="n01">TABUADA DE:</label>
+            <input type="number" id="n01"> 
+           
+            <label for="x2">÷</label>
+            <input type="checkbox" name="x1" id="x2" >
+            <input type="button" value="VERIFICAR" onclick="tabuada()">
+            <div id="resultado2">
+                <p>DEMOSTRAÇÃO DORESULTADO</p>
+            </div>
+        </main>
+        <main class="terceiro">
+            <h1>&#x1F449;Equações completas  &#x1F448;</h1>
+            <input type="number"  id="a" placeholder="VALOR DE A">
+             <input type="number"  id="b" placeholder="VALOR DE B">
+              <input type="number"  id="c" placeholder="VALOR DE C">
+              <input  type="button" value="RESULTADO" onclick="equação()">
+              <div id="resultado3">
+                <p>DEMOSTRAÇÃO DORESULTADO</p>
+              </div>
+        
+        </main>
+
+        <main class="quatro">
+            <h1>&#x1F449;incompleta em (c) &#x1F448;</h1>
+
+            <input type="number"  id="ia" placeholder="VALOR DE A">
+            <input type="number"  id="ib" placeholder="VALOR DE B">
+            <input type="button" value="RESULTADO" onclick="incompleta()">
+
+            <div id="resultado4">
+                <p>DEMOSTRAÇÃO DORESULTADO</p>
+            </div>
+        </main>
+    </main>
+
+
+    
+
+   
+    <script src="java.js"></script> 
+</body>
+</html>
