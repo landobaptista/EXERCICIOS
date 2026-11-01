@@ -9,7 +9,7 @@ html , body {
     background-color: darkgray  ;
 }
 header {
-    background-color: black;
+   background-color: black;
     color: #ffff;
     text-align: center;
 }
@@ -46,9 +46,9 @@ section.imagem{
 }
 section.imagem > p{
 
-    background-color:  rgba(0, 0, 0, 0.148);
+    background-color:  #00000026;
     width: 400px;
-    padding: 10 px;
+    padding: 10px;
 }
 footer{
     background-color: black;
